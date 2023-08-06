@@ -12,7 +12,7 @@ public class Task2 {
         System.out.println("Массив содержит дубликаты? " + result);
     }
 
-    public static boolean containsDuplicate(int [] nums){
+    private static boolean containsDuplicate(int [] nums){
         Set<Integer> set = new HashSet<>();
 
         for(int num : nums){
